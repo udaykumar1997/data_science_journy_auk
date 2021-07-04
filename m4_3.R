@@ -110,7 +110,7 @@ se_hat
 #ci <- c(-qnorm(.95), qnorm(.95)) # incorrect ans
 #ci <- c(X_hat - 2*se_hat, X_hat + 2*se_hat) # incorrect ans
 #ci <- (2*X_hat - 1) + c(-2, 2)*2*se_hat # incorrect ans
-ci<- c(X_hat - qnorm(0.975)*se_hat, X_hat + qnorm(0.975)*se_hat) 
+ci <- c(X_hat - qnorm(0.975)*se_hat, X_hat + qnorm(0.975)*se_hat) 
 
 #### q2
 # The `polls` object that filtered all the data by date and nation has already been loaded. Examine it using the `head` function.
